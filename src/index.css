@@ -1,0 +1,23 @@
+.myob-header {
+  background-color: #6f2dbd; /* MYOB-like purple */
+  padding: 16px 24px;
+}
+
+.learn-card {
+  height: 110px;
+  border: 1px solid #eaeaea;
+  border-radius: 12px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.learn-card:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+}
+
+.learn-icon {
+  font-size: 26px;
+  color: #6f2dbd; /* MYOB purple */
+}
