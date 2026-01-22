@@ -24,7 +24,7 @@
   top: 5rem;
   animation: slideIn 0.5s ease-out;
   padding-bottom: 1rem;
-  box-shadow: 2px 2px 8px 3px var(--bg);
+  box-shadow: 2px 2px 8px 3px #6f2dbd;
 }
 .x {
   width: 50px;
@@ -33,7 +33,7 @@
   top: -2rem;
   left: 42%;
   border-radius: 50%;
-  background-color: var(--bg);
+  background-color: #6f2dbd;
   /* border: 2px solid red; */
   display: flex;
   justify-content: center;
@@ -72,7 +72,7 @@
   padding-top: 1rem;
 }
 .install {
-  background: var(--bg);
+  background: #6f2dbd;
   font-weight: 700;
   font-size: 1rem;
   color: white;
