@@ -3,6 +3,8 @@ import './App.css'
 import Header from './components/Header'
 import Topics from './components/Topics'
 import AddToHomeModal from './components/AddToHome/AddToHome'
+import TopicViewer from './components/TopicViewer'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 function App() {
   const [installPrompt, setInstallPrompt] = useState(null);
@@ -57,7 +59,13 @@ function App() {
         onCloseClick={handleCloseClick}
         />
       )}
-    <Topics/>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Topics />} />
+        <Route path="/topic/:slug" element={<TopicViewer />} />
+      </Routes>
+    </BrowserRouter>
+
     </>
   )
 }
