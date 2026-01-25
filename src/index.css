@@ -1,3 +1,6 @@
+body {
+background-color: ghostwhite !important;
+}
 .myob-header {
   position: fixed;
   top: 0;
