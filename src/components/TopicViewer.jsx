@@ -31,7 +31,7 @@ function TopicViewer() {
   if (!pdf) return <h4 className="text-center mt-5">Topic not found</h4>;
 
   return (
-    <div style={{ padding: "10px" }}>
+    <div style={{ padding: "10px", marginTop: "1rem" }}>
       <Document
         file={pdf}
         onLoadSuccess={({ numPages }) => setNumPages(numPages)}
