@@ -12,18 +12,15 @@ pdfjs.GlobalWorkerOptions.workerSrc =
 pdfjs.disableFontFace = true;
 
 const topicsMap = {
-  "create-invoice": "/CreateInvoice2.pdf",
-  "receive-payment": "/CreateInvoice2.pdf",
-  "purchase-bill": "/CreateInvoice2.pdf",
-  "credit-note": "/CreateInvoice2.pdf",
-  "bank-reconciliation": "/CreateInvoice2.pdf",
-  "gst-basics": "/CreateInvoice2.pdf",
-  instalments: "/CreateInvoice2.pdf",
-  reports: "/CreateInvoice2.pdf",
-  customers: "/CreateInvoice2.pdf",
-  suppliers: "/CreateInvoice2.pdf",
-  banking: "/CreateInvoice2.pdf",
-  "chart-of-accounts": "/CreateInvoice2.pdf",
+  "create-invoice": "/pdf/CreateInvoice.pdf",
+  "receive-payment": "/pdf/RecordCustomerPayment.pdf",
+  "purchase-bill": "/pdf/CreateBill.pdf",
+  "bank-reconciliation": "/pdf/BankReconciliation.pdf",
+  "BankFeed": "/pdf/BankFeed.pdf",
+  "Bill-From-Suplier-Invoice": "/pdf/CreateBillFromSupplierInvoice.pdf",
+  "Create-Contacts": "/pdf/CreateContacts.pdf",
+  "Employee-Details": "/pdf/EmployeeDetails.pdf",
+  "Generate-Reports": "/pdf/GenerateReports.pdf",
 };
 
 function TopicViewer() {

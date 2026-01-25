@@ -51,7 +51,9 @@ function App() {
 
   return (
     <>
+        <BrowserRouter>
     <Header/>
+    <div className="app-content">
           {installPrompt && (
         <AddToHomeModal
         installPrompt={installPrompt}
@@ -59,11 +61,11 @@ function App() {
         onCloseClick={handleCloseClick}
         />
       )}
-    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Topics />} />
         <Route path="/topic/:slug" element={<TopicViewer />} />
       </Routes>
+</div>
     </BrowserRouter>
 
     </>
