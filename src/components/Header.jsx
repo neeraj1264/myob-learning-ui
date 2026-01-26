@@ -20,7 +20,7 @@ function Header() {
         </button>
       )}
       {/* Title */}
-      <h5 className="m-0 fw-semibold text-white">MYOB Learning App</h5>
+      <h5 className="m-0 fw-semibold text-white">MYOB Quick Start</h5>
     </div>
   );
 }
