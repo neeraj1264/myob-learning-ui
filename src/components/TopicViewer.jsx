@@ -13,6 +13,8 @@ pdfjs.disableFontFace = true;
 
 const topicsMap = {
   "create-invoice": "/pdf/CreateInvoice.pdf",
+  "credit-notes": "/pdf/CreditNotes.pdf",
+  "debit-notes":  "/pdf/DebitNotes.pdf",
   "receive-payment": "/pdf/RecordCustomerPayment.pdf",
   "purchase-bill": "/pdf/CreateBill.pdf",
   "bank-reconciliation": "/pdf/BankReconciliation.pdf",

@@ -6,15 +6,20 @@ const topic = [
     icon: "bi-file-earmark-text",
     slug: "purchase-bill",
   },
-  {
-    title: "Credit Note",
-    icon: "bi-arrow-counterclockwise",
-    slug: "credit-note",
-  },
-  {
+    {
     title: "Bank Reconciliation",
     icon: "bi-bank",
     slug: "bank-reconciliation",
+  },
+  {
+    title: "Credit Note",
+    icon: "bi-arrow-counterclockwise",
+    slug: "credit-notes",
+  },
+    {
+    title: "Debit Note",
+    icon: "bi-arrow-counterclockwise",
+    slug: "debit-notes",
   },
   {
     title: "Bill From Supplier Invoice",
@@ -26,19 +31,17 @@ const topic = [
     icon: "bi-person-rolodex",
     slug: "Create-Contacts",
   },
-  { title: "Employee Details", icon: "bi-people", slug: "Employee-Details" },
+  { title: "Create Employees", icon: "bi-people", slug: "Employee-Details" },
   {
     title: "Generate Reports",
     icon: "bi-bar-chart-line",
     slug: "Generate-Reports",
   },
-  { title: "GST Basics", icon: "bi-percent", slug: "gst-basics" },
-  { title: "Instalments", icon: "bi-calendar-check", slug: "instalments" },
-  {
-    title: "Chart of Accounts",
-    icon: "bi-diagram-3",
-    slug: "chart-of-accounts",
-  },
+  // {
+  //   title: "Chart of Accounts",
+  //   icon: "bi-diagram-3",
+  //   slug: "chart-of-accounts",
+  // },
 ];
 import { useState } from "react";
 import { Link } from "react-router-dom";
