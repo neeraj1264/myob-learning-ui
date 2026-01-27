@@ -37,6 +37,19 @@ const topic = [
     icon: "bi-bar-chart-line",
     slug: "Generate-Reports",
   },
+    {
+    title: "Payroll Process",
+    icon: "bi-person-check",
+    slug: "Payroll-Process",
+  },  {
+    title: "STP",
+    icon:  "bi-cloud-upload",
+    slug: "STP",
+  },  {
+    title: "Super Pay",
+    icon: "bi-bank",
+    slug: "Super-Pay",
+  },
   // {
   //   title: "Chart of Accounts",
   //   icon: "bi-diagram-3",

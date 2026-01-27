@@ -23,6 +23,10 @@ const topicsMap = {
   "Create-Contacts": "/pdf/CreateContacts.pdf",
   "Employee-Details": "/pdf/EmployeeDetails.pdf",
   "Generate-Reports": "/pdf/GenerateReports.pdf",
+  "Payroll-Process": "/pdf/PayrollProcess.pdf",
+  "STP": "/pdf/STP.pdf",
+  "Super-Pay": "/pdf/SuperPay.pdf",
+
 };
 
 function TopicViewer() {
