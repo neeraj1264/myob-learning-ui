@@ -85,7 +85,7 @@ function App() {
             <Route path="/topic/:slug" element={<TopicViewer />} />
             <Route path="/Add" element={<AddTopic />} />
             <Route
-              path="/review"
+              path="/180-021-785review"
               element={
                 <ReviewGuard>
                   <Review />

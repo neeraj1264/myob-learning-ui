@@ -133,7 +133,7 @@ function AddTopic() {
           <label className="section-title">Topic Title</label>
           <input
             className="form-control"
-            placeholder="e.g. Bank Reconciliation"
+            placeholder="e.g. Bank Reconciliation..."
             value={title}
             onChange={(e) => setTitle(e.target.value)}
           />
@@ -147,13 +147,13 @@ function AddTopic() {
             <div key={i} className="qa-block my-4">
               <input
                 className="form-control question-input"
-                placeholder="Question"
+                placeholder="Question..."
                 value={qa.question}
                 onChange={(e) => updateQA(i, "question", e.target.value)}
               />
               <textarea
                 className="form-control mt-2 auto-textarea"
-                placeholder="Answer"
+                placeholder="Answer..."
                 rows={2}
                 value={qa.answer}
                 onChange={(e) => {
