@@ -74,19 +74,19 @@ function AddTopic() {
       (q) => q.question.trim() && q.answer.trim(),
     );
 
-    if (validQuestions.length === 0) {
-      toast.error("Please add at least one question and answer");
-      setIsSubmitting(false);
-      return;
-    }
+    // if (validQuestions.length === 0) {
+    //   toast.error("Please add at least one question and answer");
+    //   setIsSubmitting(false);
+    //   return;
+    // }
 
     const validSteps = steps.filter((step) => step.trim());
 
-    if (validSteps.length === 0) {
-      toast.error("Please add at least one step");
-      setIsSubmitting(false);
-      return;
-    }
+    // if (validSteps.length === 0) {
+    //   toast.error("Please add at least one step");
+    //   setIsSubmitting(false);
+    //   return;
+    // }
 
     const payload = {
       title,
