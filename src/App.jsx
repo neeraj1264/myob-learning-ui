@@ -9,6 +9,7 @@ import AddTopic from "./components/AddTopicModal";
 import { Toaster } from "react-hot-toast";
 import Review from "./components/Review";
 import ReviewGuard from "./components/ReviewGuard";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function App() {
   const [installPrompt, setInstallPrompt] = useState(null);
@@ -85,7 +86,7 @@ function App() {
             <Route path="/topic/:slug" element={<TopicViewer />} />
             <Route path="/Add" element={<AddTopic />} />
             <Route
-              path="/180-021-785review"
+              path="/review"
               element={
                 <ReviewGuard>
                   <Review />

@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import { getCachedTopics, saveTopicsToCache } from "../utils/db";
 import Meta from "../Meta";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const API_URL = "https://invoice-foodieshub-backend.vercel.app/api/topics";
 
@@ -88,6 +89,15 @@ function Topics() {
           )}
         </div>
       </div>
+      <Link
+        to="/add"
+        className="floating-add-btn"
+        aria-label="Add new topic"
+        title="Add Topic"
+      >
+       <i className="fa-solid fa-plus"></i>
+
+      </Link>
     </>
   );
 }
