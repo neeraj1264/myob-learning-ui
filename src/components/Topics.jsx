@@ -87,6 +87,13 @@ function Topics() {
             <div className="col-12 text-center text-muted">No topics found</div>
           )}
         </div>
+              </div>
+      {/* Floating Add Button */}
+      <Link to="/add-topic" className="floating-add-btn">
+        <i className="bi bi-plus-lg"></i>
+      </Link>
+    </>
+
       </div>
     </>
   );
